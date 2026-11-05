@@ -15,15 +15,17 @@ This project analyzes 30,000 credit card customer records to identify patterns a
 
 ## Dataset Source and License
 
-1. **Dataset:** Default of Credit Card Clients
-2. **Creator:** I-Cheng Yeh
-3. **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
-4. **DOI:** https://doi.org/10.24432/C55S3H
-5. **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- **Dataset:** Default of Credit Card Clients
+- **Creator:** I-Cheng Yeh
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
+- **DOI:** https://doi.org/10.24432/C55S3H
+- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-The original dataset was used for educational data analysis. Additional customer categories and analytical measures were created using SQL and Power BI.
+The dataset contains 30,000 credit card customer records from Taiwan, including customer demographics, credit limits, repayment history, and payment default status.
 
-The dataset contains 30,000 credit card customer records from Taiwan, including demographic information, credit limits, repayment history, and payment default status.
+The dataset was used for educational analysis, with additional customer categories and analytical measures created using SQL and Power BI.
+
+**Licensing Note:** The original dataset is licensed under CC BY 4.0. The original SQL code and other project materials are covered by the repository's MIT License, except for third-party materials.
 
 ## Project Workflow
 
