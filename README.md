@@ -50,7 +50,7 @@ The dataset contains 30,000 credit card customer records from Taiwan, including 
 
 ## Dashboard Preview
 
-![Banking Credit Risk Dashboard](./Banking_Credit_Risk_Dashboard.png.png)
+![Banking Credit Risk Dashboard](./Banking_Credit_Risk_Dashboard.png)
 
 ## Limitations and Future Improvements
 
