@@ -101,6 +101,49 @@ Future analysis could use statistical or machine learning models to investigate 
 
 This project demonstrates how SQL and Power BI can be used to analyze banking data and communicate meaningful business insights. It strengthened my practical skills in data preparation, SQL querying, DAX calculations, data visualization, and business analysis.
 
+## Limitations and Future Improvements
+
+Project Limitations
+
+Although this project provides useful insights into credit card payment defaults, it has some limitations.
+
+1. Historical Dataset**
+
+The analysis uses a historical dataset of 30,000 credit card customers from Taiwan. The findings may not fully represent current banking conditions or customer behavior in other countries.
+
+2. Descriptive Analysis Only**
+
+This project focuses on identifying patterns and comparing default rates across customer groups. It does not predict whether an individual customer will default on future payments.
+
+3. Limited Customer Information**
+
+The dataset contains information such as credit limits, age, education, gender, and repayment history. However, additional factors such as income, employment status, and broader economic conditions could provide a more complete understanding of credit risk.
+
+4. Correlation Does Not Mean Causation**
+
+The analysis identifies relationships between customer characteristics and payment defaults. However, these relationships do not necessarily mean that one factor directly causes a customer to default.
+
+Future Improvements
+
+1. Develop Predictive Models**
+
+In the future, I would like to apply machine learning techniques such as logistic regression, decision trees, and random forests to predict payment default risk.
+
+2. Perform Advanced SQL Analysis**
+
+I plan to explore more advanced SQL techniques, including Common Table Expressions (CTEs), window functions, and additional customer segmentation queries.
+
+3. Improve Dashboard Functionality**
+
+Future improvements could include additional analytical measures, clearer repayment-status labels, and enhanced interactive features to help users explore credit risk patterns.
+
+4. Evaluate Model Fairness and Reliability**
+
+If predictive models are developed, I would evaluate their performance using metrics such as precision, recall, F1-score, and ROC-AUC. I would also examine potential bias and fairness concerns before considering any real-world lending applications.
+
+5. Explore More Recent Data**
+
+Using newer and more diverse datasets could help determine whether the patterns identified in this project are consistent across different time periods and customer populations.
 ## Dashboard Preview
 https://github.com/anjuupadhayaya7742-droid/banking-credit-risk-analysis/blob/main/Banking_Credit_Risk_Dashboard.png
 
