@@ -102,7 +102,7 @@ Future analysis could use statistical or machine learning models to investigate 
 This project demonstrates how SQL and Power BI can be used to analyze banking data and communicate meaningful business insights. It strengthened my practical skills in data preparation, SQL querying, DAX calculations, data visualization, and business analysis.
 
 ## Dashboard Preview
-![Banking Credit Risk Dashboard](PASTE_EXACT_IMAGE_PATH_HERE)
+https://github.com/anjuupadhayaya7742-droid/banking-credit-risk-analysis/blob/main/Banking_Credit_Risk_Dashboard.png
 
 ## Project Files
 - Power BI dashboard (`Banking Credit Risk Analysis.pbix`)
