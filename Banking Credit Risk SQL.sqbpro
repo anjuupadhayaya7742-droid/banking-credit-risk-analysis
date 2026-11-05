@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="banking_credit_risk.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3400"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="credit_card_clients" custom_title="0" dock_id="3" table="4,19:maincredit_card_clients"/><dock_state state="000000ff00000000fd00000001000000020000029d0000024ffc0100000003fb000000160064006f0063006b00420072006f00770073006500310100000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f007700730065003201000000000000029d0000000000000000fb000000160064006f0063006b00420072006f00770073006500330100000000ffffffff0000011e00ffffff000002690000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="01_overall_default_analysis.sql">SELECT
+    COUNT(*) AS total_customers,
+    SUM(&quot;default payment next month&quot;) AS total_defaults,
+    ROUND(
+        100.0 * SUM(&quot;default payment next month&quot;) / COUNT(*),
+        2
+    ) AS default_rate
+FROM credit_card_clients;</sql><sql name="02_credit_limit_analysis.sql">SELECT
+    ROUND(AVG(LIMIT_BAL), 2) AS average_credit_limit,
+    MIN(LIMIT_BAL) AS minimum_credit_limit,
+    MAX(LIMIT_BAL) AS maximum_credit_limit
+FROM credit_card_clients;</sql><sql name="03_education_default_analysis.sql">SELECT
+    EDUCATION,
+    COUNT(*) AS total_customers,
+    SUM(&quot;default payment next month&quot;) AS total_defaults,
+    ROUND(
+        100.0 * SUM(&quot;default payment next month&quot;) / COUNT(*),
+        2
+    ) AS default_rate
+FROM credit_card_clients
+GROUP BY EDUCATION
+ORDER BY default_rate DESC;</sql><sql name="04_age_group_default_analysis.sql">SELECT
+    CASE
+        WHEN AGE &lt; 30 THEN 'Under 30'
+        WHEN AGE &lt; 40 THEN '30-39'
+        WHEN AGE &lt; 50 THEN '40-49'
+        ELSE '50+'
+    END AS age_group,
+    COUNT(*) AS total_customers,
+    SUM(&quot;default payment next month&quot;) AS total_defaults,
+    ROUND(
+        100.0 * SUM(&quot;default payment next month&quot;) / COUNT(*),
+        2
+    ) AS default_rate
+FROM credit_card_clients
+GROUP BY age_group
+ORDER BY MIN(AGE);</sql><sql name="05_repayment_history_analysis.sql">SELECT
+    PAY_0 AS repayment_status,
+    COUNT(*) AS total_customers,
+    SUM(&quot;default payment next month&quot;) AS total_defaults,
+    ROUND(
+        100.0 * SUM(&quot;default payment next month&quot;) / COUNT(*),
+        2
+    ) AS default_rate
+FROM credit_card_clients
+GROUP BY PAY_0
+ORDER BY PAY_0 ASC;</sql><current_tab id="2"/></tab_sql></sqlb_project>
