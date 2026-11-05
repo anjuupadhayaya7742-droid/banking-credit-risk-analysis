@@ -34,6 +34,12 @@ These findings describe associations within the dataset and do not establish cau
 ![Banking Credit Risk Dashboard](Banking_Credit_Risk_Dashboard.png..png)
 
 ## Project Files
-- Power BI dashboard (`.pbix`)
-- Dashboard screenshot (`.png`)
-- SQL analysis queries (to be added)
+- Power BI dashboard (`Banking Credit Risk Analysis.pbix`)
+- Dashboard screenshot
+- SQL queries:
+  - `01_overall_default_analysis.sql`
+  - `02_credit_limit_analysis.sql`
+  - `03_education_default_analysis.sql`
+  - `04_age_group_default_analysis.sql`
+  - `05_repayment_history_analysis.sql`
+
