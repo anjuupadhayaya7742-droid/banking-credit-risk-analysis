@@ -12,9 +12,16 @@ This project analyzes 30,000 credit card customer records to identify patterns a
 - **DAX:** KPI calculations
 - **Power BI:** Interactive dashboard development
 
-## Dataset
 
-Source: [UCI Machine Learning Repository – Default of Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
+## Dataset Source and License
+
+- **Dataset:** Default of Credit Card Clients
+- **Creator:** I-Cheng Yeh
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
+- **DOI:** https://doi.org/10.24432/C55S3H
+- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+The original dataset was used for educational data analysis. Additional customer categories and analytical measures were created using SQL and Power BI.
 
 The dataset contains 30,000 credit card customer records from Taiwan, including demographic information, credit limits, repayment history, and payment default status.
 
