@@ -31,7 +31,8 @@ The analysis suggests that credit limits and repayment behavior are useful facto
 These findings describe associations within the dataset and do not establish causation.
 
 ## Dashboard Preview
-https://github.com/anjuupadhayaya7742-droid/banking-credit-risk-analysis/tree/main
+https://github.com/anjuupadhayaya7742-droid/banking-credit-risk-analysis
+
 ## Project Files
 - Power BI dashboard (`.pbix`)
 - Dashboard screenshot (`.png`)
