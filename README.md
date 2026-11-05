@@ -78,9 +78,28 @@ The analysis is descriptive and does not establish causal relationships or predi
 5. Repayment History:Longer payment delays were generally associated with higher default rates.
 
 **Business Insights**
-The analysis suggests that credit limits and repayment behavior are useful factors to examine when monitoring credit risk. Banks could use these findings to support customer risk segmentation, monitor repayment patterns, and guide further investigation.
+## Business Recommendations
 
-These findings describe associations within the dataset and do not establish causation.
+Based on the Banking Credit Risk Analysis, the following recommendations could help financial institutions improve credit risk monitoring and decision-making.
+
+1. Monitor Customers with Repayment Delays
+Customers with longer repayment delays generally showed higher default rates. Banks could use repayment history to identify accounts that may require closer monitoring and provide timely payment reminders or financial assistance.
+
+2. Review Credit Risk Across Credit Limit Groups
+Customers in the low credit limit group had a default rate of 29.80%, compared with 13.26% in the high credit limit group. Banks could investigate the factors contributing to this difference and use the findings to support credit risk assessments.
+
+3. Improve Customer Risk Segmentation
+The analysis identified differences in default rates across age, education, and gender groups. These patterns can help identify areas for further investigation, although demographic characteristics should not be used to make discriminatory lending decisions.
+
+4. Support Data-Driven Decision-Making
+An interactive Power BI dashboard can help risk management teams monitor default rates, compare customer segments, and identify changes in repayment patterns.
+
+5. Explore Predictive Analytics
+Future analysis could use statistical or machine learning models to investigate default risk. Any predictive model should be evaluated for accuracy, fairness, and reliability before being considered for real-world use.
+
+## Conclusion
+
+This project demonstrates how SQL and Power BI can be used to analyze banking data and communicate meaningful business insights. It strengthened my practical skills in data preparation, SQL querying, DAX calculations, data visualization, and business analysis.
 
 ## Dashboard Preview
 ![Banking Credit Risk Dashboard](Banking_Credit_Risk_Dashboard.png..png)
